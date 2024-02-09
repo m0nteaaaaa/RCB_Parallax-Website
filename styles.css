@@ -1,0 +1,157 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(assets/Virat_Kholi.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(assets/ABD.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(assets/Chris_Gayle.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg3 {
+  background: #5e1d25;
+  color: #e99d14;
+  padding: 20px;
+}
+.textBg1{
+    background-color: rgb(34,85,164);
+    color: #d6b268;
+    padding: 20px;
+}
+.textBg2{
+    background-color: #0c562e;
+    color: #f3b71a;
+    padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-1 {
+  background-color: rgb(34,85,164);
+  color: #d6b268;
+}
+.section-2 {
+  background-color: #0c562e;
+  color: #f3b71a;
+}
+.section-3 {
+    background-color: #5e1d25;
+    color: #e99d14;
+  }
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+}
+.textBg1:hover{
+    background-color: #d6b268;
+    color: rgb(34,85,164);
+    transition: 0.5s;
+}
+.textBg2:hover{
+    background-color: #f3b71a;
+    color: #0c562e;
+    transition: 0.5s;
+}
+.textBg3:hover{
+    background-color: #e99d14;
+    color: #5e1d25;
+    transition: 0.5;
+}
+.section-1:hover{
+    background-color: #d6b268;
+    color: rgb(34,85,164);
+    transition: 0.5s;
+}
+.section-2:hover{
+    background-color: #f3b71a;
+    color: #0c562e;
+    transition: 0.5s;
+}
+.section-3:hover{
+    background-color: #e99d14;
+    color: #5e1d25;
+    transition: 0.5s;
+}
+@media screen and (max-width: 768px) {
+  .pimg1, .pimg2, .pimg3 {
+      min-height: 200px; /* Adjust minimum height for smaller screens */
+  }
+  .ptext {
+      font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  h2 {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+  p {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+  .section {
+      padding: 30px;
+  }
+  /* Adjust background colors for smaller screens */
+  .textBg1 {
+      background-color: rgb(34, 85, 164);
+      color: #d6b268;
+  }
+  .textBg2 {
+      background-color: #0c562e;
+      color: #f3b71a;
+  }
+  .textBg3 {
+      background-color: #5e1d25;
+      color: #e99d14;
+  }
+  /* Adjust hover background colors for smaller screens */
+  .textBg1:hover,
+  .section-1:hover {
+      background-color: rgb(34, 85, 164);
+      color: #d6b268;
+  }
+  .textBg2:hover,
+  .section-2:hover {
+      background-color: #0c562e;
+      color: #f3b71a;
+  }
+  .textBg3:hover,
+  .section-3:hover {
+      background-color: #5e1d25;
+      color: #e99d14;
+  }
+}
